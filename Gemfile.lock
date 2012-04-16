@@ -1,0 +1,14 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    colorize (0.5.8)
+    packetfu (1.1.5)
+    pcaprub (0.11.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  colorize (~> 0.5.8)
+  packetfu (~> 1.1.5)
+  pcaprub (~> 0.11.0)
