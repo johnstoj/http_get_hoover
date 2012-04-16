@@ -1,0 +1,15 @@
+HTTP GET Hoover logs all HTTP GET requests that flow through a specified local network interface.
+
+Doesn't sound too useful?  What if you pair it with an ARP spoof?  :)
+
+Notes:
+	1. Written/Works on MacOS (should work on Linux too?).
+
+Dependencies/Setup:
+	1. Install RVM (http://beginrescueend.com/).
+	2. Install Ruby v1.9.2.
+
+Usage: 
+	sudo -E ./go [interface]
+
+i.e. sudo -E ./go en0
